@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 21
+          java-version: 25
       - name: Dateien an die richtige Stelle schieben
         run: |
           mkdir -p gradle/wrapper
