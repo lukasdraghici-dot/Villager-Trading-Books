@@ -13,6 +13,18 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
+      - name: Dateien an die richtige Stelle schieben
+        run: |
+          mkdir -p gradle/wrapper
+          mkdir -p src/main/java/de/villagerbooks
+          mkdir -p src/main/resources/assets/villagerbooks/lang
+          [ -f gradle-wrapper.jar ] && mv gradle-wrapper.jar gradle/wrapper/
+          [ -f gradle-wrapper.properties ] && mv gradle-wrapper.properties gradle/wrapper/
+          [ -f VillagerBooksClient.java ] && mv VillagerBooksClient.java src/main/java/de/villagerbooks/
+          [ -f fabric.mod.json ] && mv fabric.mod.json src/main/resources/
+          [ -f de_de.json ] && mv de_de.json src/main/resources/assets/villagerbooks/lang/
+          [ -f en_us.json ] && mv en_us.json src/main/resources/assets/villagerbooks/lang/
+          true
       - name: Build
         run: |
           chmod +x gradlew
