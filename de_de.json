@@ -1,0 +1,10 @@
+{
+	"key.category.villagerbooks.main": "Villager-Bücher",
+	"key.villagerbooks.toggle_hud": "Bücher-Anzeige ein/aus",
+	"villagerbooks.panel.title": "Handelsübersicht (%s)",
+	"villagerbooks.panel.legend": "Grün = Rabatt  ·  Rot = teurer",
+	"villagerbooks.out_of_stock": "Ausverkauft",
+	"villagerbooks.hud.title": "Bücher von %s",
+	"villagerbooks.hud.unknown": "Noch nicht gehandelt – Rechtsklick auf den Villager",
+	"villagerbooks.hud.none": "Keine Bücher im Angebot"
+}

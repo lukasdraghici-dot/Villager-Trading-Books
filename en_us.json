@@ -1,0 +1,10 @@
+{
+	"key.category.villagerbooks.main": "Villager Books",
+	"key.villagerbooks.toggle_hud": "Toggle book overview",
+	"villagerbooks.panel.title": "Trade overview (%s)",
+	"villagerbooks.panel.legend": "Green = discount  ·  Red = pricier",
+	"villagerbooks.out_of_stock": "Out of stock",
+	"villagerbooks.hud.title": "Books of %s",
+	"villagerbooks.hud.unknown": "Not traded yet – right-click the villager",
+	"villagerbooks.hud.none": "No books on offer"
+}
